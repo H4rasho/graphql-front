@@ -7,7 +7,7 @@ import { createUploadLink } from "apollo-upload-client";
 const client = new ApolloClient({
   link: createUploadLink({
     // Remplazar por uri de produccion
-    uri: "https://localhost:4000",
+    uri: "https://localhost:4000/graphql",
   }),
   cache: new InMemoryCache(),
 });
